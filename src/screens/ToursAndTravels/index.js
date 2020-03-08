@@ -7,11 +7,11 @@ class ToursAndTravels extends React.Component {
 
     state = {
         operationSectionToggler: true,
-        serviceToggler:true
+        serviceToggler: true
     }
 
     render() {
-        const { operationSectionToggler, serviceToggler} = this.state;
+        const { operationSectionToggler, serviceToggler } = this.state;
         return (
             <Styles>
                 <div>
@@ -100,14 +100,14 @@ class ToursAndTravels extends React.Component {
                             <div className="row p-3">
                                 <div className="col-md-6 sec-text">
 
-                                    <h2>Operation & Maintenance</h2>
-                                    <p className="operation-para">UTS Service department is capable of carrying operation & maintenance
-                                        Of desalination & sewage treatment plants .UTS has well qualified and trained engineers
-                                        &technicians to attend the O&M jobs without any delay .
-                                        UTS has entered into long-term operation & maintenance contracts with some of prestigious
-                                        clients in the region like ADMA-OPCO, TOTAL,NPCC,
-                                        ADCO NDC, etc. Especially in the field of desalination .The service
-                                        Division has a very successful track record for the last 20 years.
+                                    <h2>Enjoy The Tent Stay</h2>
+                                    <p className="operation-para">Most people go on camping trips because they're tired of the city or ready for an adventure. Whether you enjoy biking, hunting or any other outdoor activity, camping offers you a way to focus completely on a hobby for a few days without external distractions.
+What you might not realize is that camping can help you live a longer, healthier life.
+If you regularly camp out, you'll enjoy dozens of significant health benefits from:
+1. THE FRESH AIR 2. SOCIALIZATION
+3. IMPROVED MOODS 4. LESS STRESS
+5. EXERCISE 6. SUNSHINE
+7. A GOOD NIGHT'S SLEEP 9. NEW CHALLENGES
                                     </p>
                                 </div>
 
@@ -122,10 +122,10 @@ class ToursAndTravels extends React.Component {
                                     />
                                 </div>
                             </div>
-                            <div className="row p-3 pb-5">
-                                <div className="col-md-6 mt-5">
+                            <div className="row p-3 pb-5 mt-3">
+                                <div className="col-md-6">
                                     <img src={require("../../assets/img/toursandtravels/tourandtravel9.jpg")} alt=""
-                                        style={{ width: "90%", height: "300px" }} className="text-center" onClick={() => this.setState({ serviceToggler: !serviceToggler })}/>
+                                        style={{ width: "90%", height: "300px" }} className="text-center" onClick={() => this.setState({ serviceToggler: !serviceToggler })} />
                                     <FsLightbox
                                         toggler={serviceToggler}
                                         sources={[
@@ -134,14 +134,10 @@ class ToursAndTravels extends React.Component {
                                     />
                                 </div>
 
-                                <div className="col-md-6 sec-text pt-5">
+                                <div className="col-md-6 sec-text ">
 
-                                    <h2>Service Contracts</h2>
-                                    <p className="operation-para">UTS also engage in service contracts .The service contracts
-                                        Are usually call-off basis or an annual contract as per the clients
-                                        Requirement and convenience. The service contracts are carried out
-                                        For a number of clients all through the Middle East. Some of the clients
-                        Include Qatar Gas, Nabors, Lamprell ,ADMA ,NPCC ,TOTAL ,Emarine, Gulfa Mineral, etc.</p>
+                                    <h2>Travel & Culture Services</h2>
+                                    <p className="operation-para">Pakistan is a destination for every one but is very little visited by the world due to bad image from the media. You can rely on Travel & Culture Services in Pakistan to show you this fabulous country. Ours is an owner managed company that takes every care to make your stay in Pakistan comfortable and hassle free. Our Main aim is to provide quality service to you at a very reasonable cost. We promote Pakistan as a safe and the most enjoyable secrets of Asia.</p>
 
                                 </div>
                             </div>

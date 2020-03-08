@@ -142,7 +142,7 @@ const Footer = () => {
                                     <h3 className="sub-footer-head-tag">CONTACT US</h3>
                                     <a className="sub-footer-links" href=""><span>Email:</span> karimkhan.saka@gmail.com</a>
                                     <a className="sub-footer-links" href=""><span>Phone:</span> +92-346-9235699</a>
-                                    <a className="sub-footer-links" href=""><span>Mail:</span> Shimshal House, Aga Khan abad, Aliabad Hunza, District Hunza Nagar, Gilgit Baltistan.</a>
+                                    <a className="sub-footer-links" href=""><span>Mail:</span> Shimshal House, Aga Khan abad, Aliabad Hunza, District Hunza, Gilgit Baltistan.</a>
                                 </div>
                             </div>
                         </div>

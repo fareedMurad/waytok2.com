@@ -83,7 +83,7 @@ function Home() {
                         <div>
                             <h2 className="title pb-5 pt-5"><span className="feature-decoration">Featured </span>Trips</h2>
                         </div>
-                        <div className="row pb-3">
+                        <div className="row pb-3 wow jello">
                             <div className="col-md-4 pb-5">
                                 <h5 className="small-head-box-title" id="mobile-disable-small-head-box-title">Nanga Parbat
                                 </h5>

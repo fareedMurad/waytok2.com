@@ -1,22 +1,49 @@
 import React from 'react';
+import emailjs from 'emailjs-com';
 import Styles from './styles';
 
-class ContactUs extends React.Component {
 
+class ContactUs extends React.Component {
+    
     state = {
         name: '',
         email: '',
         subject: '',
         message: ''
     }
-    onSubmit = () => {
-        alert(this.state.name +"   "  +this.state.email +"   "+ this.state.subject +"    "+ this.state.message)
+    
+    onSubmit = (e) => {
+        e.preventDefault();
+        const { name, email, subject, message } = this.state;
+        let templateParams = {
+            from_name: email,
+            to_name: ' ab37a76bbcda048771a677e65d4f2c12',
+            subject: subject,
+            message_html: message,
+        }
+        emailjs.send(
+            'gmail',
+            'template_FuITN7De',
+            templateParams,
+            'user_d8ZiCquDEP1lIrV50b2eI'
+        )
+        
+        // Lets Empty Fields
+        this.setState({
+            name: '',
+            email: '',
+            subject: '',
+            message: ''
+        })
+        
+        alert('Your Request is Successfully been Proceed');
     }
 
 
+
     render() {
+        // console.log(emailjs)
         const { name, email, subject, message } = this.state;
-        console.log(this.state)
         return (
             <Styles>
                 <div>
@@ -41,49 +68,49 @@ class ContactUs extends React.Component {
                                 <img src={require("./images/img-01.png")} alt="IMG" />
                             </div>
 
-                            <form className="contact1-form validate-form" onSubmit={() => this.onSubmit()}>
+                            <form className="contact1-form" onSubmit={(e) => this.onSubmit(e)}>
                                 <div className="wrap-input1 validate-input" >
-                                    <input 
-                                    required
-                                    className="input1" 
-                                    type="text" 
-                                    name="name" 
-                                    value={name} 
-                                    onChange={e => this.setState({name:e.target.value})}
-                                    placeholder="Name" />
+                                    <input
+                                        required
+                                        className="input1"
+                                        type="text"
+                                        name="name"
+                                        value={name}
+                                        onChange={e => this.setState({ name: e.target.value })}
+                                        placeholder="Name" />
                                     <span className="shadow-input1"></span>
                                 </div>
 
                                 <div className="wrap-input1 validate-input" >
-                                    <input 
-                                    required
-                                    className="input1" 
-                                    type="email" 
-                                    name="email" 
-                                    value={email} 
-                                    onChange={e => this.setState({email:e.target.value})}
-                                    placeholder="Email" />
+                                    <input
+                                        required
+                                        className="input1"
+                                        type="email"
+                                        name="email"
+                                        value={email}
+                                        onChange={e => this.setState({ email: e.target.value })}
+                                        placeholder="Email" />
                                     <span className="shadow-input1"></span>
                                 </div>
 
                                 <div className="wrap-input1 validate-input" >
-                                    <input 
-                                    className="input1" 
-                                    type="text" 
-                                    name="subject" value={subject} 
-                                    onChange={e => this.setState({subject:e.target.value})}
-                                    placeholder="Subject" />
+                                    <input
+                                        className="input1"
+                                        type="text"
+                                        name="subject" value={subject}
+                                        onChange={e => this.setState({ subject: e.target.value })}
+                                        placeholder="Subject" />
                                     <span className="shadow-input1"></span>
                                 </div>
 
                                 <div className="wrap-input1 validate-input" >
-                                    <textarea 
-                                    required
-                                    className="input1" 
-                                    name="message" 
-                                    value={message} 
-                                    onChange={e => this.setState({message:e.target.value})}
-                                    placeholder="Message"></textarea>
+                                    <textarea
+                                        required
+                                        className="input1"
+                                        name="message"
+                                        value={message}
+                                        onChange={e => this.setState({ message: e.target.value })}
+                                        placeholder="Message"></textarea>
                                     <span className="shadow-input1"></span>
                                 </div>
 
