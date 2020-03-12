@@ -48,7 +48,10 @@ a:hover{
 }
 @media(max-width: 760px){
     .navbar-brand img{
-        height:120px
+        height:120px;
+    }
+    .navbar-brand{
+        padding-left: 0 !important;
     }
     .nav-icons{
         display: inline !important;

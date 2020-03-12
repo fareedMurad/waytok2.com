@@ -14,7 +14,7 @@ function Gasherbrum_II() {
                 <div className="container">
                     <div className="row">
                         <div className="col k2-head-box">
-                            <h2>Expedition to the Gasharbrum II</h2>
+                            <h2>The Gasharbrum II</h2>
                             <p>Gasherbrum II; surveyed as K4, is the 13th highest mountain in the world at 8,035 metres above sea level. It is the third-highest peak of the Gasherbrum massif, and is located in the Karakoram, on the border between Gilgit–Baltistan, Pakistan, and Xinjiang, China.
                             </p>
                             <div className="k2-intro mt-2">

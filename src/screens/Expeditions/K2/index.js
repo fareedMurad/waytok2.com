@@ -12,7 +12,7 @@ function K2() {
                 <div className="container">
                     <div className="row">
                         <div className="col k2-head-box">
-                            <h2>K2 EXPEDITION</h2>
+                            <h2>K2 </h2>
                             <p>K2 expedition is considered to be one of the top mountaineering adventures in the world, it combines the thrill of climbing and trekking in the glacial surroundings around Baltoro Glacier with the pleasure of touring in the colourful Himalayan and Karakorum valleys of Skardu, Shigar and Askoli.
                             </p>
                             <div className="k2-intro mt-2">

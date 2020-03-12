@@ -24,8 +24,18 @@ i:hover{
     #head-section{
         margin-bottom:3rem
     }
+    #head-box{
+        padding: 0 30px !important;
+    }
+    #headOnlyDesktopDisplay{
+        display:none !important;
+    }
+    #head-section .head-para{
+        font-size: 25px;
+        letter-spacing:0;
+    }
     #head-section .head-title{
-        font-size: 25px
+        font-size: 15px
     }
     #head-section .rgba{
         height: 60vh;
@@ -66,14 +76,20 @@ i:hover{
 }
 #carousel-caption{
     position: absolute;
-    top:10%;
-    right:10%;
-    left:10%;
+    top:25%;
+    left:50%;
     padding-top:4rem;
     text-align: left;
     font-family: 'Comfortaa', cursive;
 }
+#head-box{
+    transform:translateY(-5rem)
+}
 .rgba{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
     background-color: rgba(0,0,0,0.7);
     height:90vh;
     width: 100%;
@@ -122,13 +138,16 @@ i:hover{
 }
 
 .head-para{
-    font-size:17px;
+    font-size:55px;
     color:#d1d1d1;
-    margin-bottom:5px
+    margin-bottom:5px;
+    letter-spacing:5px !important;
+    
 }
 .head-title{
-    font-size:35px;
-    color:#fff
+    font-size:25px;
+    color:#fff;
+    font-family: 'Comfortaa', cursive;
 }
 .head-small-uLine{
     border-bottom:2px solid #a09c9c;

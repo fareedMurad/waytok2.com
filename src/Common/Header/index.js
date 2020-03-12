@@ -9,11 +9,6 @@ const Header = () => {
                 <div className="container-fluid m-0 p-0">
                     <nav className="navbar navbar-expand-lg navbar-light bg-light mb-0 ">
                         <a className="navbar-brand pl-5" href="#"><img src={require("../../assets/icons/logo.png")} height="150px"></img></a>
-                        <div className="nav-icons d-none">
-                            <i className="fa fa-search"></i>
-                            <i className="fa fa-map-marker"></i>
-                            <i className="fa fa-phone"></i>
-                        </div>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
                             aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>

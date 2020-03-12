@@ -140,8 +140,10 @@ class ContactUs extends React.Component {
                                 <div className="col-md-6">
                                     <div className="row mb-3">
                                         <div className="col-4">
+                                        <a href="https://www.facebook.com/Hunza2gojal/?ref=page_internal">
                                             <i className="fa fa-facebook"></i>
                                             <h4>FACEBOOK</h4>
+                                            </a>
                                         </div>
                                         <div className="col-4">
                                             <i className="fa fa-twitter"></i>

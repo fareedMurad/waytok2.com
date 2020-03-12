@@ -12,7 +12,7 @@ function NangaParbat() {
                 <div className="container">
                     <div className="row">
                         <div className="col k2-head-box">
-                            <h2>Nanga Parbat EXPEDITION</h2>
+                            <h2>Nanga Parbat</h2>
                             <p>Nanga Parbat is the ninth highest mountain in the world and the second highest in Pakistan after K2. It is Located in Diamir district of Gilgit Baltistan, Pakistan. Nanga Parbat is the western anchor of the Himalaya. It is separated from the Karakoram range by the mighty Indus River. It rises directly from the Indus valley.
                             </p>
                             <div className="k2-intro mt-2">

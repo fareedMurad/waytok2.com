@@ -11,7 +11,7 @@ function KhunjerabTop() {
                 <div className="container">
                     <div className="row">
                         <div className="col k2-head-box">
-                            <h2>Expedition to the Khunjerab Top </h2>
+                            <h2>The Khunjerab Top </h2>
                             <p>The Khunjerab Pass is the highest-paved international border crossing in the world and the highest point on the Karakoram Highway. The roadway across the pass was completed in 1982, and has superseded the unpaved Mintaka and Kilik Passes as the primary passage across the Karakoram Range. The choice of Khunjerab Pass for Karakoram Highway was decided in 1966: China citing the fact that Mintaka would be more susceptible to air strikes recommended the steeper Khunjerab Pass instead
                             </p>
                             <div className="k2-intro mt-2">

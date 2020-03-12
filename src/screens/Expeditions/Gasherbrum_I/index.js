@@ -13,7 +13,7 @@ function Gasherbrum_I() {
                 <div className="container">
                     <div className="row">
                         <div className="col k2-head-box">
-                            <h2>Expedition to the Gasharbrum I</h2>
+                            <h2>The Gasharbrum I</h2>
                             <p>Gasharbrum 1 is equally known as Hidden Peak but in the local language people call it Shining Wall. It is the third highest peak of Pakistan. G-1 was attempted for the first time in 1936 the French Expedition but they could not succeed. Finally in 1958, Schoening and Kaufman, members of the American Expedition reached the top of Gasharbrum I.
                             </p>
                             <div className="k2-intro mt-2">

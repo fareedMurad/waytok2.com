@@ -12,7 +12,7 @@ function BoardPeak() {
                 <div className="container">
                     <div className="row">
                         <div className="col k2-head-box">
-                            <h2>Expedition to the Broad Peak</h2>
+                            <h2>The Broad Peak</h2>
                             <p>The name Broad Peak itself narrates the splendor dimension of the peak that has three summates. In the local language people know it as Faichan Kangri. It is the fourth highest peak of Pakistan. In 1954, the West German climber Dr.Karl M. Herligkoffer tried to climb it but he could not succeed. However in 1957 an Austrian Expedition reached the top of Broad Peak. Marcus Schmuck, Fritz Wintersteller, Kurt Diemberger and Hermann Buhl were the climbers to make the first ascent.
                             </p>
                             <div className="k2-intro mt-2">
