@@ -213,13 +213,11 @@ a:hover{
 }
 .feature-decoration{
     width: 100px;
-    border-bottom: 2px solid  #28a745;
+    border-bottom: 2px dashed  #28a745;
 }
 
 .overlay{
-    position: absolute;
-    top: 0;
-    width: 0%;
+    width: 95%;
     background-color: rgba(0,0,0,0.7);
     height: 200px;
     overflow: hidden;
@@ -227,11 +225,7 @@ a:hover{
     transition: 0.5s linear;
     text-align: center;
 }
-#small-head-box-section .col:hover .overlay{
-    width: 95%;
-    height: 200px;
-	transition: 0.5s;
-}
+
 .onhover2 img:hover{
     box-shadow: 2px 2px 8px rgba(0,0,0,0.6);
     cursor:pointer;
@@ -244,7 +238,7 @@ a:hover{
     transform: translateY(5rem);
     padding: 5px 60px;
     border: 1px solid #28a745;
-    background-color: transparent;
+    color:#fff;
 }
 .overlay .btn:hover{
     background-color: #28a745;

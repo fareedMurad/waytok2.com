@@ -49,7 +49,7 @@ function KhunjerabTop() {
                 <div className="container">
                     <div className="row">
                         <div className="col">
-                            <h3>About Khunjerab Top Expedition</h3>
+                            <h3>About Khunjerab Top</h3>
                             <p>Khunjerab Pass 4733 ,meter (sometimes called Khunerjab Pass) is a high mountain pass on the northern border of Pakistan with China, at an elevation of 4.733m (15,528ft) above the sea level. The Khunjerab Pass is the highest border-crossing in the world and the highest point on the Karakoram Highway.Khunjerab Pass is located in the Karakoram Mountains in a strategic position on the northern border of Pakistan's Gilgit–Baltistan Hunza-Nagar District on the southwest border of the Xinjiang region of China. For comparison, Mont Blanc, the tallest mountain in Western Europe, is 4.810 m and Mount Whitney, the highest point in the 48 contiguous United States, is 4.421m. This section of the road was completed in 1982 and is possibly the highest metalled border crossing in the world. The road to the summit is asphalted.</p>
                         </div>
                     </div>

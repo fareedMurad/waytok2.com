@@ -37,7 +37,7 @@ function Gasherbrum_II() {
                     <div className="row">
                         <div className="col-md-6">
                             <h3>About Gasherbrum II</h3>
-                            <p>Gasherbrum II Expedition takes you into the Heart of the Karakoram mountain range of Gilgit-Baltistan, Pakistan. Gasherbrum II is the 13th highest mountain in the world at 8,035 metres above sea level. Gasherbrums I & II Mountains stand next to each other, they have the common base camp and the higher camps until camp II. Mountaineers have an option to attempt both Peaks by paying additional royalty fee. Gasherbrum II Expedition is not too hard so it is a perfect mountaineering experience for the Himalaya beginners.
+                            <p>Gasherbrum II takes you into the Heart of the Karakoram mountain range of Gilgit-Baltistan, Pakistan. Gasherbrum II is the 13th highest mountain in the world at 8,035 metres above sea level. Gasherbrums I & II Mountains stand next to each other, they have the common base camp and the higher camps until camp II. Mountaineers have an option to attempt both Peaks by paying additional royalty fee. Gasherbrum II Expedition is not too hard so it is a perfect mountaineering experience for the Himalaya beginners.
 
                             Since 40 years ,we have been organising Gasherbrum II Expedition for Mountaineering enthusiasts from around the World. Trango Adventures operates a 62 days long Expedition to Gasherbrum. We offer both, full board or Base camp logistic services. The duration may be longer or shorter depending on the clients experience and ability.
 

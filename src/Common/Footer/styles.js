@@ -151,11 +151,17 @@ ${'' /* .customPopover{
     transition:0.3s;
 
 }
+.mainFooter .circle-icon i{
+    color:#0d521d;l
+}
 .mainFooter .circle-icon:hover{
     font-size:20px;
     border: 2px solid rgba(255,255,255,0.8);
     color: #fff;
     background-color: transparent;
+}
+.mainFooter .circle-icon:hover i{
+    color:#ffff
 }
 .copyright{
     font-size:15px;

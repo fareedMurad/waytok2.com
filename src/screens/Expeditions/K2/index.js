@@ -13,7 +13,7 @@ function K2() {
                     <div className="row">
                         <div className="col k2-head-box">
                             <h2>K2 </h2>
-                            <p>K2 expedition is considered to be one of the top mountaineering adventures in the world, it combines the thrill of climbing and trekking in the glacial surroundings around Baltoro Glacier with the pleasure of touring in the colourful Himalayan and Karakorum valleys of Skardu, Shigar and Askoli.
+                            <p>K2 is considered to be one of the top mountaineering adventures in the world, it combines the thrill of climbing and trekking in the glacial surroundings around Baltoro Glacier with the pleasure of touring in the colourful Himalayan and Karakorum valleys of Skardu, Shigar and Askoli.
                             </p>
                             <div className="k2-intro mt-2">
                                 <span>Mountain Range: <h4>Karakoram</h4></span>
@@ -36,7 +36,7 @@ function K2() {
                     <div className="row">
                         <div className="col-md-6">
                             <h3>About K2</h3>
-                            <p>K2 expedition is considered to be one of the top mountaineering adventures in the world, it combines the thrill of climbing and trekking in the glacial surroundings around Baltoro Glacier with the pleasure of touring in the colourful Himalayan and Karakorum valleys of Skardu, Shigar and Askoli. During the K2 expedition you will have spectacular view of other world famous peaks, Including  Broad Peak (8,044 m), Gasherbrum Group, Chogolisa (7,686 m), Golden Throne (7,365m), Trango Tower and many others.
+                            <p>K2 is considered to be one of the top mountaineering adventures in the world, it combines the thrill of climbing and trekking in the glacial surroundings around Baltoro Glacier with the pleasure of touring in the colourful Himalayan and Karakorum valleys of Skardu, Shigar and Askoli. During the K2 expedition you will have spectacular view of other world famous peaks, Including  Broad Peak (8,044 m), Gasherbrum Group, Chogolisa (7,686 m), Golden Throne (7,365m), Trango Tower and many others.
 
                             Trango Adventure have been organising k2 expeditions for mountaineering enthusiasts from around the world since 40 years. We operates a 63 days long K2 expeditions. We offer full board logistic services to K2 Base Camp. The duration of the expedition may be longer or shorter depending on the clients experience, ability and available time.
 

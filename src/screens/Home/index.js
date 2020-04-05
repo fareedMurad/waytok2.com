@@ -66,12 +66,12 @@ function Home() {
                     <span className="text-success ">Tours & travel </span>
                     service company
                   </h5>
-                  <div className="text-center">
+                  <div className="text-center mt-2">
                     <a
                       className="under-line-link "
                       href="https://www.youtube.com/watch?v=JNJyQ5OIIbU"
                     >
-                      <span className="head-small-uLine ">Wactch Profile</span>
+                      <span className="head-small-uLine " style={{borderBottom:'none'}}>Watch Profile</span>
                     <i className="fa fa-play-circle-o text-success"></i>
                     </a>
                   </div>
@@ -169,7 +169,7 @@ function Home() {
           <div className="container pb-5">
             <div>
               <h2 className="title pb-5 pt-5">
-                <span className="feature-decoration">Featured </span>Trips
+                <span className="feature-decoration">Expeditions </span>
               </h2>
             </div>
             <div className="row pb-3 wow jello">

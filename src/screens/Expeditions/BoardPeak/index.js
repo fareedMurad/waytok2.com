@@ -48,8 +48,8 @@ function BoardPeak() {
                 <div className="container">
                     <div className="row">
                         <div className="col">
-                            <h3>About Broad Peak Expedition</h3>
-                            <p>Broad Peak Expedition is one of the world’s top mountaineering journeys. An ultimate adventure journey to scale the mighty Broad peak is mentally and physically demanding which requires very high level of climbing and mountaineering skills. Previous climbing experience of 6,800 meter high mountains are helpful to achieve the summit aspirations. To stand at the pinnacle of the wold’s 12th highest mountain, Broad Peak is one of the life’s rewarding experiences.
+                            <h3>About Broad Peak</h3>
+                            <p>Broad Peak is one of the world’s top mountaineering journeys. An ultimate adventure journey to scale the mighty Broad peak is mentally and physically demanding which requires very high level of climbing and mountaineering skills. Previous climbing experience of 6,800 meter high mountains are helpful to achieve the summit aspirations. To stand at the pinnacle of the wold’s 12th highest mountain, Broad Peak is one of the life’s rewarding experiences.
 
 Broad Peak’s local name is ‘Falchan Kangri’. It is named for the immense bulk and because of its breadth at the top. It has a strong presence in its environs neighbouring K2. Broad Peak is one of the 8,000 meter peaks which towers above Concordia at the heart of the Karakoram mountain range dominating the entire scenario ahead of Baltoro Glacier.
 
