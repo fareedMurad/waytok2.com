@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import ScrollToTop from 'react-router-scroll-top';
 import Home from './screens/Home';
 import ToursAndTravels from './screens/ToursAndTravels';
 import Trekking from './screens/Trekking';
@@ -23,6 +24,7 @@ function App() {
     <Router >
       <Fragment>
         <Header />
+        <ScrollToTop>
         <Switch  >
           <Route exact path='/' component={Home} />
           <Route  path = '/toursAndTravels' component={ToursAndTravels}/>  
@@ -38,6 +40,7 @@ function App() {
           <Route  path = '/khunjerabtop' component={KhunjerabTop}/>  
           <Route  path = '/models' component={Models}/>  
         </Switch>
+        </ScrollToTop>
         <Footer />
       </Fragment>
     </Router>
