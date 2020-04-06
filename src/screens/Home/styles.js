@@ -218,12 +218,8 @@ a:hover{
 
 .overlay{
     width: 95%;
-    background-color: rgba(0,0,0,0.7);
-    height: 200px;
-    overflow: hidden;
 	opacity: 0.8;
-    transition: 0.5s linear;
-    text-align: center;
+    ${'' /* text-align: center; */}
 }
 
 .onhover2 img:hover{
@@ -235,10 +231,11 @@ a:hover{
     margin:0 5px;
 }
 .overlay .btn{
-    transform: translateY(5rem);
+    ${'' /* transform: translateY(5rem); */}
     padding: 5px 60px;
     border: 1px solid #28a745;
     color:#fff;
+    margin: 10px 0 20px 0;
 }
 .overlay .btn:hover{
     background-color: #28a745;

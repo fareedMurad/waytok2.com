@@ -172,7 +172,7 @@ function Home() {
                 <span className="feature-decoration">Expeditions </span>
               </h2>
             </div>
-            <div className="row pb-3 wow jello">
+            <div className="row wow jello">
               <div className="col-md-4 pb-5">
                 <h5
                   className="small-head-box-title"
@@ -252,7 +252,7 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="row pb-3">
+            <div className="row">
               <div className="col-md-4 pb-3">
                 <h5
                   className="small-head-box-title"
